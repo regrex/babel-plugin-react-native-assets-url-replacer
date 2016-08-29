@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-react-native-assets-url-replacer",
+  "version": "1.0.0",
+  "description": "this is a babel plugin for change relative assets path to server url in react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regrex/babel-plugin-react-native-assets-url-replacer.git"
+  },
+  "keywords": [
+    "react-native",
+    "absolute"
+  ],
+  "author": "Daisy <dengxi.daisy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regrex/babel-plugin-react-native-assets-url-replacer/issues"
+  },
+  "homepage": "https://github.com/regrex/babel-plugin-react-native-assets-url-replacer#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0"
+  }
+}
