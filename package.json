@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/regrex/babel-plugin-react-native-assets-url-replacer#readme",
   "devDependencies": {
-    "babel-core": "^6.14.0"
+    "babel-core": "^6.14.0",
+    "babel-plugin-syntax-jsx": "^6.13.0"
   }
 }

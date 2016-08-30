@@ -23,7 +23,6 @@ module.exports = function (babel) {
         exit(path) {
           if (path.node.callee.name === 'require') {
             console.log(path.node.arguments.name);
-            // if (path.node.arguments)
             path.replaceWithMultiple(path.node.arguments);
           }
         }

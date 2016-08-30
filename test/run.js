@@ -16,7 +16,7 @@ fs.readFile(inputFileName, function(err, data) {
 
   // use our plugin to transform the source
   var out = babel.transform(src, {
-    plugins: [replacer]
+    plugins: ['syntax-jsx', replacer]
   });
 
   // print the generated code to screen
